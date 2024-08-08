@@ -1,0 +1,68 @@
+/* FONT STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON STYLE */
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+/* HEADER STYLE */
+.header {
+    border: 01px solid darkblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100px;
+    margin-top: 60px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+.travel-container,
+.travel-menu-container {
+    width: 50%;
+}
+
+.travel-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.travel-name {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel-menu-container {
+    display: flex;
+    justify-content: space-around;
+    color: #424247;
+    gap: 38px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.travel-menu-container a {
+    text-decoration: none;
+    color: #424247;
+    padding: 08px;
+}
+.travel-menu-container a:hover{
+    color: #fff;
+    background-color: #585864;
+}
