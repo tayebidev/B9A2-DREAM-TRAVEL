@@ -1,5 +1,27 @@
 @media screen and (max-width: 600px) {
-    .travel-menu-container a{
-        
-    } 
+
+/* Header style */
+.header{
+    margin-top: 20px;
+}
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .travel-container{
+        justify-content: center;
+    }
+
+    .travel-container,
+    .travel-menu-container {
+        width: 100%;
+    }
+
+    .travel-menu-container {
+        gap: 0;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        line-height: 10px;
+    }
+/* End Header Style */
 }

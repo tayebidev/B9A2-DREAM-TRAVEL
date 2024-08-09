@@ -19,16 +19,15 @@ body {
 
 /* HEADER STYLE */
 .header {
-    border: 01px solid darkblue;
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 100px;
     margin-top: 60px;
 }
 
 .header-section {
     display: flex;
     align-items: center;
+    min-height: 70px;
 }
 
 .travel-container,
@@ -41,6 +40,10 @@ body {
     align-items: center;
     gap: 16px;
 }
+.travel-container img{
+    width: auto;
+    object-fit: cover;
+}
 
 .travel-name {
     color: #131318;
@@ -52,7 +55,6 @@ body {
     display: flex;
     justify-content: space-around;
     color: #424247;
-    gap: 38px;
     font-size: 20px;
     font-weight: 400px;
 }
@@ -60,9 +62,12 @@ body {
 .travel-menu-container a {
     text-decoration: none;
     color: #424247;
-    padding: 08px;
+    padding: 15px;
 }
-.travel-menu-container a:hover{
+
+.travel-menu-container a:hover {
     color: #fff;
     background-color: #585864;
+    border-radius: 10px;
 }
+/* End Header Style */
