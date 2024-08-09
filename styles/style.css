@@ -40,7 +40,8 @@ body {
     align-items: center;
     gap: 16px;
 }
-.travel-container img{
+
+.travel-container img {
     width: auto;
     object-fit: cover;
 }
@@ -70,4 +71,45 @@ body {
     background-color: #585864;
     border-radius: 10px;
 }
+
 /* End Header Style */
+
+/* Banner section */
+.banner-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 01px solid tomato;
+    margin-top: 50px;
+    text-align: center;
+    min-height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-container {
+    border: 05px solid yellow;
+    margin: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Banner-title {
+    border: 05px solid red;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    border: 01px solid yellow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 900px;
+    text-align: center;
+    margin: 30px auto;
+}
