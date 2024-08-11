@@ -8,6 +8,7 @@
     .primary-btn {
         width: 300px;
     }
+
     /* End common style */
 
     /* Header style */
@@ -35,6 +36,7 @@
         margin-top: 15px;
         line-height: 10px;
     }
+
     /* End Header Style */
 
     /* Banner section */
@@ -65,7 +67,29 @@
         font-size: 14px;
         width: 350px;
     }
+
     /* END of Banner section */
+
+    /* <!-- Our Popular Tour Section --> */
+    .tour-cotainer {
+        flex-direction: column;
+    }
+
+    .tour-content,
+    .tour-img {
+        width: 100%;
+    }
+
+    .tour-img {
+        margin-top: 20px;
+    }
+
+    .tour-btn {
+        width: 200px;
+        margin: 0 auto;
+
+    }
+    /* <!-- End of Our Popular Tour Section --> */
 
 
 }
