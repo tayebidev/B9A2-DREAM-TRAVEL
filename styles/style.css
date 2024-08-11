@@ -23,13 +23,14 @@ body {
 
 .p-color {
     color: #5A5A5D;
+    line-height: 25px;
 }
 
 .primary-btn {
     width: 230px;
     background-color: #FF5400;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 15px 0;
     justify-content: center;
     text-align: center;
@@ -182,14 +183,15 @@ select {
 
 /* END Banner section */
 
-/* <!-- Our Popular Section --> */
+/* <!-- Our Popular Tour Section --> */
 .tour-seciton {
     border: 01px double red;
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.tour-cotainer{
+
+.tour-cotainer {
     display: flex;
     align-items: center;
 }
@@ -204,7 +206,8 @@ select {
     font-size: 40px;
     font-weight: 800;
 }
-.tour-description{
+
+.tour-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -212,9 +215,20 @@ select {
     line-height: 25px;
 }
 
-.tour-content p {
+.tour-content ul {
+    max-width: 500px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-    margin: 24px 0;
+}
+.tour-content ul>li{
     line-height: 25px;
+}
+.tour-secondpart{
+    margin: 08px 0;
+}
+.tour-btn{
+    margin-top: 40px;
 }
