@@ -1,7 +1,6 @@
 @media screen and (max-width: 600px) {
 
     /* common style */
-
     main {
         padding: 0 10px;
     }
@@ -9,7 +8,6 @@
     .primary-btn {
         width: 300px;
     }
-
     /* End common style */
 
     /* Header style */
@@ -37,7 +35,6 @@
         margin-top: 15px;
         line-height: 10px;
     }
-
     /* End Header Style */
 
     /* Banner section */
@@ -68,7 +65,6 @@
         font-size: 14px;
         width: 350px;
     }
-
     /* END of Banner section */
 
 
