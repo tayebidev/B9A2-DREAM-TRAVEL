@@ -17,6 +17,28 @@ body {
     color: #FF5400;
 }
 
+.primary-btn {
+    width: 230px;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    justify-content: center;
+}
+
+.primary-btn button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+}
+/* END COMMON STYLE */
+
 /* HEADER STYLE */
 .header {
     max-width: 1200px;
@@ -119,19 +141,21 @@ body {
     border: 05px solid tomato;
     display: flex;
     align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
 }
 
-.where, .when{
+.banner-selection {
     width: 230px;
-    border: 01px solid yellow;
     background-color: #fff;
     border: none;
     border-radius: 5px;
     padding: 15px 0;
     display: flex;
     color: #131318;
-    /* gap: 10px; */
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .banner-cmnfont {
@@ -140,12 +164,13 @@ body {
     color: rgba(19, 19, 24, 0.50);
 }
 
- select {
+select {
     border: none;
 }
 
-.banner-cmnfont > option {
+.banner-cmnfont>option {
     font-size: 20px;
     background-color: #e0a282;
     color: #fff;
 }
+/* END Banner section */
