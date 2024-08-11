@@ -1,14 +1,28 @@
 @media screen and (max-width: 600px) {
 
-/* Header style */
-.header{
-    margin-top: 20px;
-}
+    /* common style */
+
+    main {
+        padding: 0 10px;
+    }
+
+    .primary-btn {
+        width: 300px;
+    }
+
+    /* End common style */
+
+    /* Header style */
+    .header {
+        margin-top: 20px;
+    }
+
     .header-section {
         flex-direction: column;
         align-items: center;
     }
-    .travel-container{
+
+    .travel-container {
         justify-content: center;
     }
 
@@ -23,5 +37,39 @@
         margin-top: 15px;
         line-height: 10px;
     }
-/* End Header Style */
+
+    /* End Header Style */
+
+    /* Banner section */
+    .banner-section {
+        margin: 20px 0;
+        min-height: 650px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-option {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .banner-selection {
+        width: 300px;
+    }
+
+    .Banner-title {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        width: 350px;
+    }
+
+    /* END of Banner section */
+
+
 }
