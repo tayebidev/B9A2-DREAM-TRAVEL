@@ -89,7 +89,17 @@
         margin: 0 auto;
 
     }
+
     /* <!-- End of Our Popular Tour Section --> */
 
+    /* Choose your Destination section */
+    .grid-cotainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .destination h1 {
+        font-size: 30px;
+    }
+    /* End of Choose your Destination section */
 
 }
