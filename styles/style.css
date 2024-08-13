@@ -339,7 +339,7 @@ select {
 .choose {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .choose h1 {
@@ -357,6 +357,7 @@ select {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    margin-bottom: 25px;
 
 }
 
@@ -366,7 +367,7 @@ select {
 }
 
 .hotel,
-.map {
+.map, .price {
     width: 50%;
     padding: 32px 0 32px 32px;
 }
@@ -375,14 +376,14 @@ select {
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
     border: 1px rgba(251, 181, 99, 0.20);
-    width: 590px;
+    max-width: 590px;
 }
 
 .map {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 590px;
+    max-width: 590px;
 }
 
 .choose-text {
@@ -395,3 +396,21 @@ select {
 .choose-text-descripton {
     width: 480px;
 }
+
+.price img {
+    width: 64px;
+    height: 64px;
+}
+.choose-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 590px;
+}
+/* <!-- End of Why Choose Us section --> */

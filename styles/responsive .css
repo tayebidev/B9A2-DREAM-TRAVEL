@@ -102,4 +102,17 @@
     }
     /* End of Choose your Destination section */
 
+    /* <!-- Why Choose Us section --> */
+    .choose-content{
+        flex-direction: column;
+    }
+    .hotel, .map, .price {
+        width: 400px;
+    }
+    .choose-text-descripton {
+        width: 300px;
+    }
+    .choose h1 {
+        font-size: 30px;
+    }
 }
