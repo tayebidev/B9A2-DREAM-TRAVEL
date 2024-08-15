@@ -97,22 +97,50 @@
         display: flex;
         flex-direction: column;
     }
+
     .destination h1 {
         font-size: 30px;
     }
+
     /* End of Choose your Destination section */
 
     /* <!-- Why Choose Us section --> */
-    .choose-content{
+    .choose-content {
         flex-direction: column;
     }
-    .hotel, .map, .price {
+
+    .hotel,
+    .map,
+    .price {
         width: 400px;
     }
+
     .choose-text-descripton {
         width: 300px;
     }
+
     .choose h1 {
         font-size: 30px;
     }
+
+    /* <!-- End of Why Choose Us section --> */
+
+    /* <!-- Deals and Discounts. Optional section --> */
+    .deals-content-01 {
+        padding: 50px;
+        justify-content: center;
+    }
+
+    .deals-box {
+        padding: 10px;
+    }
+
+    .deals-items {
+        flex-wrap: wrap;
+    }
+
+    .deals-description {
+        width: 260px;
+    }
+    /* <!-- End of Deals and Discounts. Optional section --> */
 }

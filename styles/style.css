@@ -434,7 +434,7 @@ select {
     margin: 25px 0 48px 0;
 }
 
-.deals-content {
+.deals-content-01 {
     border: 01px solid rebeccapurple;
     display: flex;
     justify-content: end;
@@ -445,10 +445,10 @@ select {
     border-radius: 15px;
     padding-top: 55px;
     padding-bottom: 55px;
-
 }
 
 .deals-box {
+    border: 02px solid greenyellow;
     width: 580px;
     border: 01px solid red;
     padding: 50px;
