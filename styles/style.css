@@ -434,8 +434,7 @@ select {
     margin: 25px 0 48px 0;
 }
 
-.deals-content-01 {
-    border: 01px solid rebeccapurple;
+.deals-content-01, .deals-content-02, .deals-content-03 {
     display: flex;
     justify-content: end;
     padding: 0 55px;
@@ -445,12 +444,17 @@ select {
     border-radius: 15px;
     padding-top: 55px;
     padding-bottom: 55px;
+    margin-bottom: 25px;
+}
+.deals-content-02{
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
 }
 
 .deals-box {
-    border: 02px solid greenyellow;
     width: 580px;
-    border: 01px solid red;
     padding: 50px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.80);
