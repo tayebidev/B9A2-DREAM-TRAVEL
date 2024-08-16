@@ -434,7 +434,9 @@ select {
     margin: 25px 0 48px 0;
 }
 
-.deals-content-01, .deals-content-02, .deals-content-03 {
+.deals-content-01,
+.deals-content-02,
+.deals-content-03 {
     display: flex;
     justify-content: end;
     padding: 0 55px;
@@ -446,7 +448,8 @@ select {
     padding-bottom: 55px;
     margin-bottom: 25px;
 }
-.deals-content-02{
+
+.deals-content-02 {
     background-image: url(../Images/Group\ 40.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,4 +516,75 @@ select {
 
 #deals-btn {
     max-width: 150px;
+}
+
+/* Perfect place section */
+
+.place-seciton {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.place-cotainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.place-content,
+.place-video {
+    width: 50%;
+}
+
+.place-content h1 {
+    width: 448px;
+    line-height: 60px;
+}
+
+.place-content p {
+    width: 550px;
+}
+
+.place-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0;
+    line-height: 25px;
+    text-align: left;
+}
+
+.place-content ul {
+    max-width: 500px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.place-content ul>li {
+    line-height: 25px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.place-secondpart {
+    margin: 08px 0;
+}
+
+.place-btn {
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.place-video iframe {
+    width: 590px;
+    height: 420px;
 }

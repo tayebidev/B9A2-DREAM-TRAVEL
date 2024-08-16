@@ -142,5 +142,46 @@
     .deals-description {
         width: 260px;
     }
+
     /* <!-- End of Deals and Discounts. Optional section --> */
+
+    /* Perfect Place section */
+    .place-seciton {
+        margin: auto 0;
+    }
+
+    .place-cotainer {
+        flex-direction: column;
+        padding: 03px;
+        margin: 0 auto;
+    }
+
+    .place-content,
+    .place-video {
+        width: 100%;
+    }
+
+    .place-content h1 {
+        width: 380px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+
+    .place-content p {
+        width: 350px;
+    }
+
+
+    .place-btn {
+        width: 200px;
+        margin: 0 auto;
+
+    }
+
+    .place-video iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+
 }
