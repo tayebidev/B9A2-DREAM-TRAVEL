@@ -593,29 +593,22 @@ select {
 
 /* Newsletter section */
 .form-section {
-    border: 01px solid red;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .form-container {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .form-content {
     border: 01px solid #FF5400;
-    ;
     width: 40%;
     padding: 40px;
     border-radius: 15px;
 }
-
-.discount-img {
-    border: 01px solid blue;
-    width: 60%;
-}
-
 .form-section h3 {
     font-size: 25px;
 }
@@ -656,4 +649,51 @@ label input {
 
 .form-btn {
     width: 350px;
+}
+
+.discount-offer {
+    width: 60%;
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.offer {
+    background-color: #FF5400;
+    color: #fff;
+    border-radius: 08px;
+    position: absolute;
+    left: 56%;
+    top: 60%;
+    rotate: -25deg;
+
+}
+
+.travel {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.save {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 05px;
+}
+
+.offer ul {
+    background-color: #FF5400;
+    color: #fff;
+    border-radius: 08px;
+    width: 300px;
+    padding: 15px 0;
+}
+
+.offer li {
+    text-align: center;
+    list-style: none;
 }
