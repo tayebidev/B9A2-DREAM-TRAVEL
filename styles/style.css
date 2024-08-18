@@ -588,3 +588,72 @@ select {
     width: 590px;
     height: 420px;
 }
+
+/* End of Perfect Place section */
+
+/* Newsletter section */
+.form-section {
+    border: 01px solid red;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-container {
+    display: flex;
+    gap: 25px;
+}
+
+.form-content {
+    border: 01px solid #FF5400;
+    ;
+    width: 40%;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.discount-img {
+    border: 01px solid blue;
+    width: 60%;
+}
+
+.form-section h3 {
+    font-size: 25px;
+}
+
+.form-section p {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+hr {
+    width: 350px;
+    background-color: rgba(19, 19, 24, 0.10);
+    margin-bottom: 25px;
+}
+
+form input {
+    width: 350px;
+}
+
+label input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.form-btn {
+    width: 350px;
+}
