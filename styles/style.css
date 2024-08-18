@@ -595,11 +595,12 @@ select {
 .form-section {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .form-container {
     display: flex;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -609,6 +610,7 @@ select {
     padding: 40px;
     border-radius: 15px;
 }
+
 .form-section h3 {
     font-size: 25px;
 }
@@ -658,7 +660,6 @@ label input {
     background-size: cover;
     border-radius: 15px;
     position: relative;
-
 }
 
 .offer {
@@ -669,7 +670,6 @@ label input {
     left: 56%;
     top: 60%;
     rotate: -25deg;
-
 }
 
 .travel {
