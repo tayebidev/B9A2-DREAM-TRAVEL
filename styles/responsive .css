@@ -177,42 +177,66 @@
         margin: 0 auto;
 
     }
+
     .place-video iframe {
-        width: 300px;
+        width: 100%;
         height: 300px;
     }
+
     /* End of Perfect Place section */
 
     /* Newsletter section */
-    .form-container{
+    .form-container {
         flex-direction: column;
     }
-    .form-content, .discount-offer{
+
+    .form-content,
+    .discount-offer {
         width: 100%;
     }
-    .form-content{
+
+    .form-content {
         padding: 10px;
     }
-    .discount-offer{
+
+    .discount-offer {
         height: 350px;
     }
-    .offer ul{
+
+    .offer ul {
         width: 200px;
     }
+
     .travel {
         font-size: 15px;
     }
-    .save{
+
+    .save {
         font-size: 20px;
     }
-    .offer{
-        
-    left: 49%;
-    top: 66%;
+
+    .offer {
+
+        left: 49%;
+        top: 66%;
     }
+
     .form-btn {
         width: 350px;
     }
 
+    /* End of Newsletter section */
+
+    /* footer section */
+    .footer-description {
+        width: 400px;
+    }
+
+    /* End of footer section */
+
+    /* extra section */
+    .extra p {
+        width: 350px;
+    }
 
 }
